@@ -12,6 +12,8 @@
 		ABBFCC8221BB00EE0099151A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBFCC8021BB00EE0099151A /* Main.storyboard */; };
 		ABBFCC8421BB00EF0099151A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBFCC8321BB00EF0099151A /* Assets.xcassets */; };
 		ABBFCC8721BB00EF0099151A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBFCC8521BB00EF0099151A /* LaunchScreen.storyboard */; };
+		ABBFCC8F21BB072B0099151A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBFCC8E21BB072B0099151A /* Game.swift */; };
+		ABBFCC9121BB07410099151A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBFCC9021BB07410099151A /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ABBFCC8321BB00EF0099151A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABBFCC8621BB00EF0099151A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABBFCC8821BB00EF0099151A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBFCC8E21BB072B0099151A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		ABBFCC9021BB07410099151A /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				ABBFCC8321BB00EF0099151A /* Assets.xcassets */,
 				ABBFCC8521BB00EF0099151A /* LaunchScreen.storyboard */,
 				ABBFCC8821BB00EF0099151A /* Info.plist */,
+				ABBFCC8E21BB072B0099151A /* Game.swift */,
+				ABBFCC9021BB07410099151A /* Player.swift */,
 			);
 			path = Connect4;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABBFCC9121BB07410099151A /* Player.swift in Sources */,
 				ABBFCC7F21BB00EE0099151A /* ViewController.swift in Sources */,
+				ABBFCC8F21BB072B0099151A /* Game.swift in Sources */,
 				ABBFCC7D21BB00EE0099151A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
